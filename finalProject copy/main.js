@@ -4,7 +4,7 @@ $(document).ready (function (){
 const anchorElTwo = document.querySelector('.click-button-two');
 
 anchorElTwo.addEventListener('click',event => {
-	var xhr = $.get("http://api.giphy.com/v1/gifs/random?tag=mom&api_key=X3SR3WWlYTW8tzghpaqqhIWjF83h0vJc");
+	var xhr = $.get("http://api.giphy.com/v1/gifs/random?tag=fuck&api_key=X3SR3WWlYTW8tzghpaqqhIWjF83h0vJc");
 	xhr.done(function(data) {console.log(data.data.title); $("#ourImage").attr("src",data.data.images.original.url)});
 
 	console.log(xhr)
